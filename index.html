@@ -40,11 +40,15 @@
         font-size: 25px;
         font-weight: bold;
       }
+      img {
+      width: 150px;
+      }
 
     </style>
   </head>
   <body>
-    <h1> Welcome to the Art Museum </h1>
+    <h1> Welcome to the Museum of the City of New York!</h1>
+    <img src="ny.jpg" alt="">
     <h2> Please enter your details below </h2>
 
     <label for="age">Age:</label>
@@ -60,7 +64,7 @@
       <option value = "Sunday">Sunday</option>
     </select>
     <input type="text" id="code" name="Code"> <br>
-    <button onclick= "returnPrice()" name = "button">Calculate my ticket price</button>
+    <button onclick= "returnPrice()" name = "button">Calculate Price</button>
     <p id = "price">
   </body>
 </html>
