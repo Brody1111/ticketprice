@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title></title>
     <script type="text/javascript">
+      //Default values to make them available in the functions
       var price = 0;
       var day = "Day";
       var age = 0;
       var code = "";
+      //Finds the price given the three vars inserted by the user (TEXAS is the discount code)
       function findPrice() {
       price = 10;
   day = document.getElementById("day").value;
@@ -20,7 +22,7 @@
         price = 15;
       }
     }
-
+// second function for getting the price and returning it back into the html
     function returnPrice() {
 
     findPrice();
